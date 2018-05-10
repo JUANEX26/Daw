@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+    
+}
+#container{
+    color:black;
+    border: 20px;
+    border color: aquamarine;
+    border-style:solid ;
+    width: 500px;
+    margin: auto;
+}
