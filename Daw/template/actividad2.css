@@ -1,0 +1,50 @@
+.container{
+    width:1200px;
+    margin:20px auto;
+    border:solid thin;
+     
+}
+header{
+    margin: auto;   
+    border: solid black;
+}
+.a1{
+    width:250px;
+    border: solid black thin;
+    margin: 10px;
+    float:left;
+}
+.menu{
+    border: solid thin black;
+}
+.s2{
+    
+    width:600px;
+    border: solid thin;
+    float:left;
+    margin:10px;    
+}
+.s3{
+    border: solid black thin;
+    float:right;
+    width:300px;
+    margin:10px; 
+}
+button{
+    margin: auto;
+}
+footer{
+    width:250px;  
+    border: thin;
+    margin: 25px;
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+footer a{
+    margin: 10px;
+    border: solid thin;
+
+}
