@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(124, 165, 201);
+    text-align: center; 
+    font-size: 60px;
+}
+
+span::before{
+    content: "Estado inicial";
+}
+
+         /* Ipad horizontal*/
+@media only screen and (max-width: 1024px){       
+    body{
+        background-color: black;
+        color: crimson;
+    }
+    span::before{
+        content: "Estado SS1";
+    }
+}
+
+            /* Tablets */
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: crimson;
+        color: black;
+    }
+    span::before{
+        content: "Estado SS2";
+    }
+}
+        /* Telefonos horizontal*/
+
+@media only screen and (max-width: 480px){
+    span::before{
+        content: "Estado SS3";
+    }
+}
+
+        /* Telefonos vertical*/
+
+@media only screen and (max-width: 320px){
+    body{
+        background-color: yellow;
+        color: red;
+    }
+    span::before{
+        content: "Estado SSGOD";
+        
+    }
+}
+

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(124, 165, 201);
+    text-align: center; 
+    font-size: 60px;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    background: white;
+
+}
+
+header{
+    width: 100%;
+    padding: 5%;
+    
+}
+
+header .logo{
+    width: 15%;
+    float: left;
+    display: block;
+    
+}
+
+header .menu{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+header .menu ::after{
+    clear: both;
+}
+
+header .menu nav a{
+    display: inline-block;
+    margin-right: 1%;
+    padding: 10px 20px;
+    background: black;
+    color: aliceblue;
+    border-radius: 20px;    
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a{
+    font-size: 20px;
+}
+
+header .logo img{
+    background: red;
+    width: 90%;
+    margin: 5%;
+    
+}
+
+
+
+         /* Ipad horizontal*/
+@media only screen and (max-width: 1024px){       
+    body{
+        background-color: black;
+        color: crimson;
+    }
+    span::before{
+        content: "Estado SS1";
+    }
+}
+
+            /* Tablets */
+
+@media only screen and (max-width: 768px){
+    body{
+        background-color: crimson;
+        color: black;
+    }
+    span::before{
+        content: "Estado SS2";
+    }
+}
+        /* Telefonos horizontal*/
+
+@media only screen and (max-width: 480px){
+    span::before{
+        content: "Estado SS3";
+    }
+}
+
+        /* Telefonos vertical*/
+
+@media only screen and (max-width: 320px){
+    body{
+        background-color: yellow;
+        color: red;
+    }
+    span::before{
+        content: "Estado SSGOD";
+        
+    }
+}
+

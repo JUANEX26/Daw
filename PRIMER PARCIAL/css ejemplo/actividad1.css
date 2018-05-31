@@ -1,0 +1,27 @@
+.container{
+    margin: 0% auto;
+    padding: 0; 
+    width: 800px;
+    border: outset black solid;
+    float: center;
+       
+}
+header h1{
+    color: lightseagreen;
+}
+td {
+    border: 1px solid black;
+    column-span: 0;
+    text-align: center;
+    padding: 10px;
+}   
+footer{
+    color: darkkhaki;
+}
+.uno h2{
+    color: blue;
+}
+.tabla h3{
+    color: blue;
+    margin-left: 150px;
+}   
