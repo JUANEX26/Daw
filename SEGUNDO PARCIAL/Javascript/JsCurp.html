@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    var name = prompt("Ingrese su primer nombre");
+    var aPaterno = prompt("Ingrese su apellido paterno");
+    var aMaterno = prompt("Ingrese su apellido materno");
+    var dia = parseInt(prompt("Ingrese su dia de nacimiento"));
+    var mes = parseInt(prompt("Ingrese su mes de nacimiento con numero, tomando como enero el 1 y diciembre el 12"));
+    var anio = prompt("Ingrese su anio de nacimiento");
+    var c = "0";
+    var dos = "carro";
+    console.log(dos.charAt(3));
+    if(dia > 9  && mes  > 9){
+            if(aPaterno.charAt(1) == "a" || aPaterno.charAt(2) == "a" ){
+                console.log(aPaterno.charAt(0).concat("a")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + dia);
+            }
+            if(aPaterno.charAt(1) == "e" || aPaterno.charAt(2) == "e" ){
+                console.log(aPaterno.charAt(0).concat("e")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + dia);
+            }
+            if(aPaterno.charAt(1) == "i" || aPaterno.charAt(2) == "i" ){
+                console.log(aPaterno.charAt(0).concat("i")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + dia);
+            }
+            if(aPaterno.charAt(1) == "o" || aPaterno.charAt(2) == "o" ){
+                console.log(aPaterno.charAt(0).concat("o")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + dia);
+            }
+            if(aPaterno.charAt(1) == "u" || aPaterno.charAt(2) == "u" ){
+                console.log(aPaterno.charAt(0).concat("u")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + dia);
+            }
+            
+        }
+
+
+         if(dia < 9  && mes  > 9){
+            if(aPaterno.charAt(1) == "a" || aPaterno.charAt(2) == "a" ){
+                console.log(aPaterno.charAt(0).concat("a")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + "0".concat(dia) );
+            }
+            if(aPaterno.charAt(1) == "e" || aPaterno.charAt(2) == "e" ){
+                console.log(aPaterno.charAt(0).concat("e")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes +  c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "i" || aPaterno.charAt(2) == "i" ){
+                console.log(aPaterno.charAt(0).concat("i")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "o" || aPaterno.charAt(2) == "o" ){
+                console.log(aPaterno.charAt(0).concat("o")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "u" || aPaterno.charAt(2) == "u" ){
+                console.log(aPaterno.charAt(0).concat("u")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + mes + c.concat(dia));
+            }
+            
+        }
+
+         if(dia < 9  && mes  < 9){
+            if(aPaterno.charAt(1) == "a" || aPaterno.charAt(2) == "a" ){
+                console.log(aPaterno.charAt(0).concat("a")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "e" || aPaterno.charAt(2) == "e" ){
+                console.log(aPaterno.charAt(0).concat("e")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "i" || aPaterno.charAt(2) == "i" ){
+                console.log(aPaterno.charAt(0).concat("i")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  +  + c.concat(mes) + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "o" || aPaterno.charAt(2) == "o" ){
+                console.log(aPaterno.charAt(0).concat("o")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  +  c.concat(mes) + c.concat(dia));
+            }
+            if(aPaterno.charAt(1) == "u" || aPaterno.charAt(2) == "u" ){
+                console.log(aPaterno.charAt(0).concat("u")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) + c.concat(dia));
+            }
+         }
+            
+            if(dia > 9  && mes  < 9){
+            if(aPaterno.charAt(1) == "a" || aPaterno.charAt(2) == "a" ){
+                console.log(aPaterno.charAt(0).concat("a")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) +  dia);
+            }
+            if(aPaterno.charAt(1) == "e" || aPaterno.charAt(2) == "e" ){
+                console.log(aPaterno.charAt(0).concat("e")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) +  dia);
+            }
+            if(aPaterno.charAt(1) == "i" || aPaterno.charAt(2) == "i" ){
+                console.log(aPaterno.charAt(0).concat("i")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) +  dia);
+            }
+            if(aPaterno.charAt(1) == "o" || aPaterno.charAt(2) == "o" ){
+                console.log(aPaterno.charAt(0).concat("o")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) +  dia);
+            }
+            if(aPaterno.charAt(1) == "u" || aPaterno.charAt(2) == "u" ){
+                console.log(aPaterno.charAt(0).concat("u")   + aMaterno.charAt(0) + name.charAt(0) + anio.charAt(2) 
+                  + anio.charAt(3)  + c.concat(mes) +  dia);
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
