@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta charset="UTF-8"/>
+<meta name="autor" content="Juan Andres Lopez Enriquez" />
+<meta name="matricula" content="1702312" />
+<meta name="grupo" content="TI32" />
+<title>Ex_01</title>
+<style media="screen">
+  li{
+    color: red;
+  }
+</style>
+<script type="text/javascript">
+  function uno(){
+    var lista = document.getElementsByTagName("body").style.fontFamily="Arial,sans-serif";
+    var nombre1 = document.createText("Juan");
+    var pasatiempo2 =document.createText("videojuegos");
+    var Hometown3 =document.createText("Puerto Vallarta");
+    var nombre  = getElementsById("nombre");
+    var pasatiempo = getElementsById("pasatiempo");
+    var hometown = getElementsById("hometown");
+    nombre.appendChild(nombre1);
+    pasatiempo.appendChild(pasatiempo2);
+    hometown.appendChild(hometown);
+  }
+</script>
+
+</head>
+
+<body onload="uno();">
+  <h1>About Me</h1>
+
+  <ul>
+    <li>Nickname: <span id="nombre">Juan</span>
+    <li>Favorites:  <span id="pasatiempo">Videojuegos</span>
+    <li>Hometown: <span id="ciudad_natal">Puerto Vallarta</span>
+   </ul>
+
+   <img src="A5cZS4O.JPG"<>
+
+ </body>
+</html>

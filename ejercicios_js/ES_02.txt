@@ -1,0 +1,6 @@
+1.	¿Qué código utilizas para crear una imagen nueva?
+<IMG SRC=""/>
+
+
+2.	¿Qué código se encarga de agregar todos los elementos al body?
+document.body.appendChild(libroList);
