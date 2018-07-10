@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="txt/html; charset=iso-8859-1"/>
+    <title>Pagina sencilal</title>
+     <script>
+     function azul(){
+         var label =document.getElementsByClassName("label");
+         for(var x = 0; x < label.length;x++){
+             label[x].style.color="blue";
+         }
+     }
+     function negritas(){
+         var negritas = document.getElementsByTagName("strong");
+         for(x = 0; x < negritas.length;x++){
+             negritas[x].style.textTransform="uppercase";
+         }
+     }
+     function apellido(){ 
+        document.getElementById("apellido").style.fontStyle="italic";
+        document.querySelectorAll("#apellido strong")[0].style.fontStyle="normal";
+        var parrafo = document.createElement("p");
+        var contenido = document.createTextNode("Hola mundo");
+        parrafo.appendChild(contenido);
+        document.body.appendChild(parrafo);            
+        
+        var tds = document.getElementsByTagName("td");
+        for(x = 0; x<tds.length;x++){
+            var texto = document.createTextNode(x+1);
+            tds[x].appendChild(texto);
+        }
+     }
+     </script>
+     <style>
+     #tabla td{
+         width: 30px;
+         height: 30px;
+         border: solid black;
+     }
+     </style>
+</head>
+<body onload="azul(); negritas(); apellido();">
+    <p class="label" id="titulo">Esta pagina es <strong>muy sencilla</strong></p>
+    <p class="label" id="nombre"><strong>Nombre</strong> Juan</p>
+    <p class="label" id="apellido"><strong>Apellido</strong> Lopez</p>
+    
+    <table id="tabla">
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+</body>
+</html>
